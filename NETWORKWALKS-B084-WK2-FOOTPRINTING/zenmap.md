@@ -186,6 +186,6 @@ Suggested repository layout:
 
 ------------------------------------------------------------------------
 
-**Reference:** Week 2 -- Project Module 5, *Network Scanning with
+**Reference:** *Network Scanning with
 Zenmap* (training handout).\
 **Official tool download:** <https://nmap.org/download.html>
