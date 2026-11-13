@@ -1,11 +1,7 @@
 # Network Scanning with Zenmap
-
-> **Lab:** Week 2 -- Project Module 5\
 > **Topic:** Network Scanning with Zenmap\
 > **Platform:** Windows\
 > **Tool:** Zenmap (Nmap GUI)\
-> **Author:** `Your Name`\
-> **Date:** `DD Month YYYY`
 
 ## 1. Objective
 
@@ -36,7 +32,6 @@ can be run again.
   Target             Local LAN subnet
   Purpose            Host discovery and topology visualization
 
-*Replace or add details above to match the system you used.*
 
 ## 4. Procedure
 
@@ -80,7 +75,7 @@ own network.
 
 ![Zenmap Ping Scan](images/zenmap-ping-scan.png)
 
-*Evidence: Replace this image path with your Ping Scan screenshot.*
+
 
 ### Step 4 -- Record the live hosts
 
@@ -95,8 +90,6 @@ Count the hosts reported by your scan and record their IP addresses.
       3 `IP_ADDRESS_3`         `HOSTNAME_OR_N/A`
       4 `IP_ADDRESS_4`         `HOSTNAME_OR_N/A`
 
-*Add or remove rows to match your actual scan results. Do not copy the
-example addresses from the training handout as your own results.*
 
 ### Step 5 -- Identify MAC addresses
 
@@ -114,9 +107,8 @@ Find the **Physical Address** entry under the active network adapter.
 
 **Screenshot -- MAC address results**
 
-![Zenmap MAC Address Results](images/zenmap-mac-addresses.png)
+![Zenmap MAC Address Results](images/zenmap-ping-scan.png)
 
-*Evidence: Replace this image path with your MAC address screenshot.*
 
     No. IP address       MAC address       Vendor (if identified)
   ----- ---------------- ----------------- ------------------------
@@ -140,11 +132,6 @@ available for every discovered host.*
 
 ![Zenmap Network Topology](images/zenmap-topology.png)
 
-*Evidence: Replace this image path with your topology screenshot.*
-
-**Topology PDF:** `reports/zenmap-topology.pdf` *(optional; add your
-exported PDF to this location if you want to keep it in the
-repository).*
 
 ## 5. Results Summary
 
@@ -191,16 +178,12 @@ Suggested repository layout:
 .
 ├── zenmap.md
 ├── images/
-│   ├── zenmap-ping-scan.png
-│   ├── zenmap-mac-addresses.png
-│   └── zenmap-topology.png
-└── reports/
-    └── zenmap-topology.pdf
+    ├── zenmap-ping-scan.png
+    ├── zenmap-mac-addresses.png
+    └── zenmap-topology.png
+
 ```
 
-Create the `images/` and `reports/` folders in your GitHub repository
-and upload your screenshots using the filenames shown above. If your
-filenames differ, update the image paths in this Markdown file.
 
 ------------------------------------------------------------------------
 
