@@ -179,9 +179,8 @@ Suggested repository layout:
 ├── zenmap.md
 ├── images/
     ├── zenmap-ping-scan.png
-    ├── zenmap-mac-addresses.png
     └── zenmap-topology.png
-
+      ''''
 ```
 
 
